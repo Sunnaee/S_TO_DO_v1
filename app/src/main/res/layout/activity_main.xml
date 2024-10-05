@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/my_image_view"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/image_description"
+        android:src="@drawable/iselda" />
+
+    <TextView
+        android:id="@+id/welcome_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplicación de tareas de Sabrina ^^"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/rut_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su RUT"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/boton_obtener_tareas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obtener Tareas"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tareas_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"/>
+
+</LinearLayout>
